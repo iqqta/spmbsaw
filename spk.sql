@@ -37,16 +37,6 @@ CREATE TABLE `matriks` (
   `fisik` double DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Dumping data for table `matriks`
---
-
-INSERT INTO `matriks` (`alt`, `mtk`, `fsk`, `bing`, `gajiortu`, `minat`, `fisik`) VALUES
-('A1', 0.5, 0.75, 0.5, 0.75, 0.6, 0.5),
-('A2', 0.75, 0.5, 0.5, 0.5, 0.6, 0.75),
-('A3', 0.25, 0.5, 0.5, 1, 0.9, 0.25),
-('A4', 0.5, 0.5, 1, 0.5, 0.3, 0.75),
-('A5', 1, 0.75, 0.5, 0.5, 0.3, 0.5);
 
 -- --------------------------------------------------------
 
